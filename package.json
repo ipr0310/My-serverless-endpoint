@@ -1,0 +1,19 @@
+{
+  "name": "my-serverless-api",
+  "version": "1.0.0",
+  "description": "My Serverless api",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "ipr0310",
+  "license": "MIT",
+  "dependencies": {
+    "koa": "^2.13.4",
+    "koa-router": "^12.0.0",
+    "serverless-http": "^3.1.0"
+  },
+  "devDependencies": {
+    "standard": "^17.0.0"
+  }
+}

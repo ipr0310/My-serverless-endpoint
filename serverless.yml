@@ -1,0 +1,17 @@
+org: otekdocorporation
+app: my-serverless-service
+service: my-serverless-service
+
+provider:
+  name: aws
+  runtime: nodejs18.x
+  memorySize: 512
+  stage: prod
+  stackName: my-serverless-stack
+  region: us-east-1
+
+functions:
+  myKoaEndpoint:
+    handler: index.handler
+    events:
+      - httpApi: "*"
