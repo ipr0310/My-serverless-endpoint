@@ -6,12 +6,13 @@ My amazing api made with Koa, to be deployed on AWS Lambda with Serverless Frame
 
 - Node.js
 - Koa
-- serverless-http
-- Expected to be deployed on AWS lambda
+- serverless-http (App is expected to be deployed on AWS lambda)
 
 ### Requirements:
 
 - Node.js
+- AWS account
+- Serverless account
 
 ### How to code:
 
