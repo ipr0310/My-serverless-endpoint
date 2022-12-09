@@ -1,5 +1,5 @@
 org: otekdocorporation
-app: my-serverless-service
+app: my-serverless-app
 service: my-serverless-service
 
 provider:

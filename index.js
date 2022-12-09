@@ -11,6 +11,10 @@ router.get("/", (ctx) => {
   };
 });
 
+router.get("/new", (ctx) => {
+  ctx.body = { message: "It seems you are a new user!" };
+});
+
 router.get("/regular", (ctx) => {
   ctx.body = { message: "Welcome to the regular room!" };
 });
